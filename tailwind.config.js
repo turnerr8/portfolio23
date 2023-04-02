@@ -3,10 +3,22 @@ module.exports = {
   //mode: 'jit',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    colors: {
+      'glassy-white': 'rgba(255, 255, 255, .37)',
+      'glassy-white-selected': 'rgba(255, 255, 255, .6)',
+    },
+    
+    extend: {
+      backgroundImage: {
+        'portrait-photo': "url(src/Media/Images/photo-dummy.jpeg)"
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 

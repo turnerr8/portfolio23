@@ -1,0 +1,8 @@
+.background-picture {
+    background-image: url('../../Media/Images/photo-dummy.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    
+}
