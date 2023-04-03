@@ -15,7 +15,7 @@ export default function Home(){
             <Photo />
 
             {projectList.map( (curProj:Projects) => {
-                return <ProjectCard {...curProj} />
+                return <ProjectCard key={curProj.title} {...curProj} />
             })}
 
         </div>

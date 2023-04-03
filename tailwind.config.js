@@ -9,6 +9,8 @@ module.exports = {
     colors: {
       'glassy-white': 'rgba(255, 255, 255, .37)',
       'glassy-white-selected': 'rgba(255, 255, 255, .6)',
+      'subheading-white': 'rgba(255, 255, 255, .8)',
+      'filter': 'rgba(0, 0, 0, .7)',
     },
     
     extend: {
