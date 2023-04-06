@@ -12,6 +12,7 @@ type Projects ={
     link: string,
     backgroundColor: string,
     date: string,
-    tags: lang[]
+    tags: lang[],
+    specialStyle?: object,
 }
 export default Projects

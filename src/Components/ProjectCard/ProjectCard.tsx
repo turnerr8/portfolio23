@@ -11,7 +11,7 @@ export default function ProjectCard(props: Projects){
         setExpanded(true);
     };
     function handleClose( e: React.ChangeEvent<HTMLInputElement>){
-        if(e.target.id === 'filter'){
+        if(e.target.id === 'filter' || e.target.classList.contains('close')){
             console.log(`closing ${props.title}`);
             setExpanded(false);
         }
@@ -22,7 +22,7 @@ export default function ProjectCard(props: Projects){
         <div className="m-5 rounded-3xl w-5/12 overflow-hidden max-h-96" style={{backgroundColor: props.backgroundColor}}>
             <div className="flex flex-row ">
                 <div className="flex flex-col w-11/12 text-left p-7">
-                    <h1 className=" text-white font-bold text-6xl mb-5">{props.title}</h1>
+                    <h1 className=" text-white font-bold text-5xl mb-5">{props.title}</h1>
                     <h3 className=" text-subheading-white font-bold text-3xl">{props.tagline}</h3>
                 </div>
                 <Expand handleExpand={handleExpand} />
@@ -32,7 +32,7 @@ export default function ProjectCard(props: Projects){
             }
             
             
-            <img className=" -mt-6" src={props.icon} alt={props.coverAlt} width={700}/>
+            <img className=" -mt-6" style={props.specialStyle} src={props.icon} alt={props.coverAlt} width={700}/>
         </div>
     )
 }

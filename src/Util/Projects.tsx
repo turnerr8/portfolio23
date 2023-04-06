@@ -3,6 +3,7 @@ import TagCover from '../Media/Images/TAGCover.png'
 import THRIcon from '../Media/Images/THRCoverIcon.png'
 import movieIcon from '../Media/Images/MovieSelectorIcon.png'
 import trialsIcon from '../Media/Images/tinyhero.png'
+import starGazerIcon from '../Media/Images/StarGazersIcon.png'
 
 
 const lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas ultricies mi eget mauris pharetra et. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. In nibh mauris cursus mattis molestie. Cras sed felis eget velit. Pharetra vel turpis nunc eget lorem dolor sed. Pellentesque massa placerat duis ultricies.';
@@ -122,8 +123,26 @@ const projectList = [
                 name: 'Unity',
                 color: '7C7C7C'
             },
-            
         ]
+    },
+    {
+        title: "Sky Gazers",
+        icon: starGazerIcon,
+        iconAlt: "Sun Tracker App on phone screen",
+        tagline: "Sun Tracker Mobile App",
+        coverImage: starGazerIcon,
+        coverAlt: "Picture of sun",
+        description: lorem,
+        link: "https://github.com/Thomasnelson2123/SkyGazers",
+        backgroundColor: "#CCCCCC",
+        date: "09/2022 -  06/2023",
+        tags: [
+            {
+                name: 'Kotlin',
+                color: '01930A'
+            },
+        ],
+        specialStyle: {transform: ' rotate(30deg)'},
     }
 ]
 

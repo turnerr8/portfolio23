@@ -1,0 +1,5 @@
+.blue-yellow-gradient {
+    background: rgb(244,175,46);
+    background: linear-gradient(221deg, rgba(244,175,46,1) 5%, rgba(103,134,151,1) 88%);
+    filter: blur(3);
+}

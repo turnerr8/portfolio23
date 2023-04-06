@@ -3,6 +3,8 @@ import Photo from "../Photo/Photo"
 import projectList from "../../Util/Projects"
 import Projects from "../../Util/ProjectType"
 import ProjectCard from "../ProjectCard/ProjectCard"
+import Contact from "../Contact/Contact"
+import './Home.css';
 
 
 
@@ -17,7 +19,8 @@ export default function Home(){
             {projectList.map( (curProj:Projects) => {
                 return <ProjectCard key={curProj.title} {...curProj} />
             })}
-
+            
+            <Contact />
         </div>
     )
 };
