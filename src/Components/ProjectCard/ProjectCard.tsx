@@ -20,7 +20,14 @@ export default function ProjectCard(props: Projects){
 
     return(
         
-        <div className=" block rounded-3xl overflow-hidden md:max-h-[345px]  col-span-2 md:col-span-1 lg:max-h-[446px] max-h-[335px]" style={{backgroundColor: props.backgroundColor}}>
+        <motion.div 
+            className=" block rounded-3xl overflow-hidden md:max-h-[345px]  col-span-2 md:col-span-1 lg:max-h-[446px] max-h-[335px]"
+            style={{backgroundColor: props.backgroundColor}}
+            initial={{opacity: 0, x:70, scale: .9}}
+            whileInView={{opacity: 1, x: 0, scale: 1}}
+            transition={{delay: .5, ease: "easeInOut", bounce: 0}}
+            viewport={{once: true}}
+            >
             <div className="flex flex-row ">
                 <div className="flex flex-col w-11/12 text-left p-7">
                     <h1 className=" text-white font-bold text-3xl lg:text-5xl mb-5">{props.title}</h1>
@@ -40,6 +47,6 @@ export default function ProjectCard(props: Projects){
             
             
             <img className=" -mt-6" style={props.specialStyle} src={props.icon} alt={props.coverAlt} />
-        </div>
+        </motion.div>
     )
 }

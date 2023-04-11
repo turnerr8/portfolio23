@@ -3,7 +3,7 @@ import linkedInIcon from '../Media/Icons/iconmonstr-linkedin-1.svg';
 import twitterIcon from '../Media/Icons/iconmonstr-twitter-1.svg';
 import resumeIcon from '../Media/Icons/iconmonstr-cv-2.svg';
 import instagramIcon from '../Media/Icons/iconmonstr-instagram-11.svg';
-
+import pdf from "../Media/Resume.pdf"
 
 const ContactButtons =[
     {
@@ -23,7 +23,7 @@ const ContactButtons =[
     },
     {
         name: 'Resume',
-        link: 'src/Media/Resume-SE-23.pdf',
+        link: pdf,
         icon: resumeIcon
     },
     {

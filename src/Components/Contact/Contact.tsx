@@ -1,11 +1,18 @@
 import ContactButtons from "../../Util/ContactButtons"
 import GenButton from "../Buttons/GenButton"
 import Message from "../Buttons/Message"
+import { motion } from "framer-motion"
 
 export default function Contact(){
 
     return(
-        <div className=" col-span-2 yellow-blue-gradient rounded-3xl p-8 text-left flex-1 ">
+        <motion.div
+            className=" col-span-2 yellow-blue-gradient rounded-3xl p-8 text-left flex-1"
+            initial={{opacity: 0, x:70, scale: .9}}
+            whileInView={{opacity: 1, x: 0, scale: 1}}
+            transition={{delay: .5, ease: "easeInOut", bounce: 0}}
+            viewport={{once: true}}
+            >
             <h1 className=" text-3xl lg:text-5xl font-bold text-white mb-4 lg:mb-10">Want to know more?</h1>
             <h3 className=" text-xl lg:text-3xl font-bold text-subheading-white mb-6 lg:mb-12">Reach out to me here!</h3>
             
@@ -20,6 +27,6 @@ export default function Contact(){
                     
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }

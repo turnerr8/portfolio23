@@ -53,14 +53,17 @@ export default function FullProject(props: any){
                                 return <span className=" inline-block rounded-full px-3 py-1 text-xs md:text-sm font-semibold text-white m-1 md:mx-2 w-fit hover:opacity-80" style={{backgroundColor: `#${curtag.color}CC`}}> # {curtag.name}</span>
                             })}
                         </div>
-                        <a href={props.link} target="_blank" className=" text-sm md:text-base inline-flex items-center bg-transparent rounded-full hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">
+                        <motion.a
+                            href={props.link}
+                            target="_blank"
+                            className=" text-sm md:text-base inline-flex items-center bg-transparent rounded-full hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">
                            <span className="mr-1"> Visit</span>
                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                             </svg>
 
 
-                        </a>
+                        </motion.a>
                     </div>
                 </div>
             </motion.div>
