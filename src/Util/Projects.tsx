@@ -2,8 +2,11 @@ import TagIcon from '../Media/Images/TagIcon.png'
 import TagCover from '../Media/Images/TAGCover.png'
 import THRIcon from '../Media/Images/THRCoverIcon.png'
 import movieIcon from '../Media/Images/MovieSelectorIcon.png'
+import movieCover from "../Media/Images/MovieSelectorCover.png"
 import trialsIcon from '../Media/Images/tinyhero.png'
+import trialsCover from "../Media/Images/trialsCover.png"
 import starGazerIcon from '../Media/Images/StarGazersIcon.png'
+import starGazerCover from "../Media/Images/skyGazerCover.jpg"
 
 
 const lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas ultricies mi eget mauris pharetra et. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. In nibh mauris cursus mattis molestie. Cras sed felis eget velit. Pharetra vel turpis nunc eget lorem dolor sed. Pellentesque massa placerat duis ultricies.';
@@ -84,7 +87,7 @@ const projectList = [
         icon: movieIcon,
         iconAlt: "Movie Selector website image",
         tagline: "Film Selector Web App",
-        coverImage: movieIcon,
+        coverImage: movieCover,
         coverAlt: "Movie Selector website image",
         description: "'Movie Selector' was created as a final project for my Dynamic Web Pages course; it was used as a way for me to experiment with API's, single-page applications as well as a tool for myself to use when trying to decide which movie to watch.  It uses an open source, community built API from TMDB to access film informations such as genre, streaming platform, and year. It uses vanilla JavaScript and CSS for transitions and functionality.",
         link: "https://turnerr8.github.io/Movie_Selector/",
@@ -111,7 +114,7 @@ const projectList = [
         icon: trialsIcon,
         iconAlt: "Tiny Hercules character",
         tagline: "Unity Video Game",
-        coverImage: movieIcon,
+        coverImage: trialsCover,
         coverAlt: "Movie Selector website image",
         description: "The Twelve Trials of Hercules is a Unity-based 3D video game demo created with the help of two classmates for our final project of Game Design. All assets were free Unity Store assets or modeled and textured by the group. All interactions were scripted by our group and used to show understanding of Game Theory, AI, Multiple-Scene 3D Games, and Environment/Player/AI Interactions. ",
         link: "https://github.com/sammurraytuesta/labors-of-hercules",
@@ -134,7 +137,7 @@ const projectList = [
         icon: starGazerIcon,
         iconAlt: "Sun Tracker App on phone screen",
         tagline: "Sun Tracker Mobile App",
-        coverImage: starGazerIcon,
+        coverImage: starGazerCover,
         coverAlt: "Picture of sun",
         description: "Senior Capstone Augmented Reality mobile app used to track the Sun's current and future path through the sky. Designed for the Android platform using Android Studio and the Kotlin programming language. This app uses the devices gps location as well as gyroscope and accelerometer sensors to determine phones location and position in 3D space. We used an open source api that, when given information, would return Sun's relative position to user. Using this information, we were able to draw an image of the Sun and it's path on the selected date onto the phones camera.",
         link: "https://github.com/Thomasnelson2123/SkyGazers",
