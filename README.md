@@ -11,7 +11,7 @@ New portfolio created using react. Along with being a general overhaul of rturne
 * `Tailwind`
   
 
-TODO:
+### TODO:
 - [ ] Create descriptions of all projects (in `Util/Projects.tsx`)
 - [ ] Add cover photos to projects
 - [ ] Add actual photo of myself :-)
@@ -21,4 +21,7 @@ TODO:
 - [ ] Adding transitions and Animations
   - [ ] When opening / closing the FullProject pages
   - [ ] On revealing cards during scrolling
+
+### Possible Additions
+- [ ] onHover of `Bio`, deg of gradient slowly changes to create movement of colors behind
 
