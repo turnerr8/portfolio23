@@ -9,6 +9,10 @@ New portfolio created using react. Along with being a general overhaul of rturne
 * `TypeScript`
 * `React`
 * `Tailwind`
+
+### Links
+* [Figma design](https://www.figma.com/file/TdOxZhFgygMR0l0rW19RE2/Untitled?t=6MkxZHFnimUE2XAG-0)
+* [Tailwind Docs](https://tailwindcss.com/docs/grid-template-columns)
   
 
 ### TODO:
