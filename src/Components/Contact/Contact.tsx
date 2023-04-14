@@ -10,7 +10,7 @@ export default function Contact(){
             className=" col-span-2 yellow-blue-gradient rounded-3xl p-8 text-left flex-1"
             initial={{opacity: 0, x:70, scale: .9}}
             whileInView={{opacity: 1, x: 0, scale: 1}}
-            transition={{delay: .5, ease: "easeInOut", bounce: 0}}
+            transition={{delay: .35, ease: "easeInOut", bounce: 0}}
             viewport={{once: true}}
             >
             <h1 className=" text-3xl lg:text-5xl font-bold text-white mb-4 lg:mb-10">Want to know more?</h1>

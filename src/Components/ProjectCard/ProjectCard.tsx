@@ -25,7 +25,7 @@ export default function ProjectCard(props: Projects){
             style={{backgroundColor: props.backgroundColor}}
             initial={{opacity: 0, x:70, scale: .9}}
             whileInView={{opacity: 1, x: 0, scale: 1}}
-            transition={{delay: .5, ease: "easeInOut", bounce: 0}}
+            transition={{delay: .35, ease: "easeInOut", bounce: 0}}
             viewport={{once: true}}
             >
             <div className="flex flex-row ">
