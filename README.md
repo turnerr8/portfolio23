@@ -9,18 +9,22 @@ New portfolio created using react. Along with being a general overhaul of rturne
 * `TypeScript`
 * `React`
 * `Tailwind`
+
+### Links
+* [Figma design](https://www.figma.com/file/TdOxZhFgygMR0l0rW19RE2/Untitled?t=6MkxZHFnimUE2XAG-0)
+* [Tailwind Docs](https://tailwindcss.com/docs/grid-template-columns)
   
 
 ### TODO:
-- [ ] Create descriptions of all projects (in `Util/Projects.tsx`)
-- [ ] Add cover photos to projects
+- [x] Create descriptions of all projects (in `Util/Projects.tsx`)
+- [x] Add cover photos to projects
 - [ ] Add actual photo of myself :-)
   - [ ] Possible sticky note
-- [ ] Full Project styling
+- [x] Full Project styling
   - along with specialized styling for icons
 - [ ] Adding transitions and Animations
-  - [ ] When opening / closing the FullProject pages
-  - [ ] On revealing cards during scrolling
+  - [x] When opening / closing the FullProject pages
+  - [x] On revealing cards during scrolling
 
 ### Possible Additions
 - [ ] onHover of `Bio`, deg of gradient slowly changes to create movement of colors behind
