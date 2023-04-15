@@ -22,7 +22,7 @@ New portfolio created using react. Along with being a general overhaul of rturne
   - [ ] Possible sticky note
 - [x] Full Project styling
   - along with specialized styling for icons
-- [ ] Adding transitions and Animations
+- [x] Adding transitions and Animations
   - [x] When opening / closing the FullProject pages
   - [x] On revealing cards during scrolling
 
