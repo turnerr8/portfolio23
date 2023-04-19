@@ -25,6 +25,7 @@ export default function Bio(){
                         if(curBut.name === 'LinkedIn' || curBut.name === 'Resume' || curBut.name === 'Github'){
                             return <GenButton {... curBut} />
                         }
+                        return <></>
                         
                     })}
                 </div>
