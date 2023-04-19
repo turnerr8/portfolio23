@@ -9,7 +9,6 @@ import starGazerIcon from '../Media/Images/StarGazersIcon.png'
 import starGazerCover from "../Media/Images/skyGazerCover.jpg"
 
 
-const lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas ultricies mi eget mauris pharetra et. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. In nibh mauris cursus mattis molestie. Cras sed felis eget velit. Pharetra vel turpis nunc eget lorem dolor sed. Pellentesque massa placerat duis ultricies.';
 
 const projectList = [
     {

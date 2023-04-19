@@ -1,4 +1,3 @@
-import rightArrow from "../../Media/Icons/iconmonstr-arrow-right-lined.svg"
 import { motion } from "framer-motion";
 
 type Tag ={
