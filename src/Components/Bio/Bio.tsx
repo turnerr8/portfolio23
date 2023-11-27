@@ -37,7 +37,7 @@ export default function Bio() {
 						) {
 							return <GenButton key={curBut.name} {...curBut} />;
 						}
-						return;
+						return <></>;
 					})}
 				</div>
 			</div>
