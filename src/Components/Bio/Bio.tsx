@@ -35,9 +35,9 @@ export default function Bio() {
 							curBut.name === 'Resume' ||
 							curBut.name === 'Github'
 						) {
-							return <GenButton {...curBut} />;
+							return <GenButton key={curBut.name} {...curBut} />;
 						}
-						return <></>;
+						return;
 					})}
 				</div>
 			</div>

@@ -24,7 +24,7 @@ export default function Contact() {
 
 				<div className=' inline-flex justify-between w-full lg:w-1/2'>
 					{ContactButtons.map((button: any) => {
-						return <GenButton {...button}></GenButton>;
+						return <GenButton key={button.name} {...button}></GenButton>;
 					})}
 				</div>
 			</div>
